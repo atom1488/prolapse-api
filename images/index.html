@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Prolapse API</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <h1>Prolapse API <strong>by atomkern</strong></h1>
+  <a href="http://localhost/prolapse">http://localhost/prolapse</a>
+  <p>Node.JS Example:</p>
+  <pre><code>const fetch = require('node-fetch');
+    fetch('http://localhost/prolapse', {
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      }).catch((err) => {
+        console.log(err.message)
+      })
+      .then(res => res.json())
+      .then(json => {
+        console.log(json.url)
+    })</code></pre>
+</body>
+
+</html>
