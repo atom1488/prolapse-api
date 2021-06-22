@@ -1,0 +1,68 @@
+@import url(http://db.onlinewebfonts.com/c/440785c689da19fbbdb1346932c8c029?family=Monaco);
+
+body {
+  font-family: monaco, Consolas, Lucida Console, monospace;
+  background-color: #161a1d;
+}
+
+h1 {
+  color: rgb(70, 70, 255);
+  text-align: center;
+}
+
+strong {
+  font-size: 20px;
+}
+
+a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: white;
+  max-width: 300px;
+  margin: 30px auto;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+a:hover {
+  transition: 0.3s;
+  color: rgb(70, 70, 255);
+}
+
+code {
+  display: block;
+  padding: 12px;
+  color: #999;
+  background: #1b1b1b;
+  transition: 0.2s;
+}
+
+pre {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #999;
+  padding: 8px;
+  border: solid white 2px;
+  text-align: left;
+  line-height: 1.15;
+  font-size: .875rem;
+  margin-top: 0px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+p {
+  margin-left: 25px;
+  margin-top: 40px;
+  color: rgb(140, 140, 255);
+  margin-bottom: 2px;
+}
+
+code:hover {
+  color: white;
+  transition: 0.2s;
+}
